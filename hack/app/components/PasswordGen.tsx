@@ -64,8 +64,8 @@ export default function PasswordGen(){
     return (
         <div className="flex min-h-screen items-center justify-center bg-gray-100 px-4">
         <div className="w-full max-w-md rounded-lg border bg-white p-6 shadow">
-            <h1 className="text-center text-2xl font-bold">PASSWORD GENERATOR</h1>
-            <p className="mt-1 text-center text-sm text-gray-500">
+            <h1 className="text-center text-2xl font-bold text-gray-900">PASSWORD GENERATOR</h1>
+            <p className="mt-1 text-center text-sm text-gray-600">
             Create strong and secure passwords to keep your account safe online.
             </p>
 
@@ -74,7 +74,7 @@ export default function PasswordGen(){
                 type="text"
                 value={password}
                 readOnly
-                className="w-full rounded border px-3 py-2 text-sm outline-none"
+                className="w-full rounded border px-3 py-2 text-sm outline-none text-gray-900"
             />
             <button
                 onClick={copyPassword}
@@ -90,7 +90,7 @@ export default function PasswordGen(){
             </p>
 
             <div className="mt-5">
-            <p className="mb-2 text-sm">Password Length {length}</p>
+            <p className="mb-2 text-sm text-gray-900">Password Length {length}</p>
             <input
                 type="range"
                 min="5"
@@ -101,7 +101,7 @@ export default function PasswordGen(){
             />
             </div>
 
-            <div className="mt-5 space-y-3 text-sm">
+            <div className="mt-5 space-y-3 text-sm text-gray-900">
             <div className="flex items-center justify-between">
                 <label>Uppercase</label>
                 <input
