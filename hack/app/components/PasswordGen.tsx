@@ -43,7 +43,7 @@ export default function PasswordGen(){
         await navigator.clipboard.writeText(password);
     };
 
-    // 🔥 lógica de fuerza
+
     const getStrength = () => {
         let score = 0;
 
@@ -84,7 +84,7 @@ export default function PasswordGen(){
             </button>
             </div>
 
-            {/* 🔥 fuerza dinámica */}
+            
             <p className={`mt-3 text-sm font-medium ${strength.color}`}>
             {strength.label}
             </p>
