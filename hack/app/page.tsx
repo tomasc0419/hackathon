@@ -2,6 +2,7 @@ import Timer from "./components/Timer";
 import PasswordGen from "./components/PasswordGen";
 import ProgressBar from "./components/ProgressBar";
 import Navbar from "./components/navbar";
+import FormsCheck from "./components/FormsCheck";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Timer />
         <PasswordGen />
         <ProgressBar />
+        <FormsCheck />
       </main>
     </div>
   );
